@@ -1,5 +1,32 @@
 body {
+  
   width: 100%;
   height: 100%;
   margin: 0;
+  
 }
+ header {
+  content: counter;
+  text-align: center;
+  margin: auto;
+  width: 50%
+ }
+
+ header .img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #featured-property{
+  text-align: center;
+  float: left;
+ }
+
+ #details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 20px;
+  background-color: brown;
+ }
